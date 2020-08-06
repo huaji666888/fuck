@@ -1,0 +1,487 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_003{font-family:Arial,serif;font-size:24.1px;color:rgb(54,125,195);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:24.1px;color:rgb(54,125,195);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:11.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:11.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_002{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:11.0px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_024{font-family:Arial,serif;font-size:11.0px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:11.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:11.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:6.6px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:6.6px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:6.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:6.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:10.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:10.0px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Arial,serif;font-size:10.0px;color:rgb(60,120,216);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_025{font-family:Arial,serif;font-size:10.0px;color:rgb(60,120,216);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:10.0px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:10.0px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:11.0px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:11.0px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_026{font-family:Arial,serif;font-size:10.0px;color:rgb(17,84,204);font-weight:normal;font-style:italic;text-decoration: underline}
+div.cls_026{font-family:Arial,serif;font-size:10.0px;color:rgb(17,84,204);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_027{font-family:Arial,serif;font-size:10.0px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: underline}
+div.cls_027{font-family:Arial,serif;font-size:10.0px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:11.0px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_028{font-family:Arial,serif;font-size:11.0px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_029{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_029{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_030{font-family:Arial,serif;font-size:10.0px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_030{font-family:Arial,serif;font-size:10.0px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background01.jpg" width=612 height=792></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background02.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:90.75px" class="cls_003"><span class="cls_003">Executive Summary</span></div>
+<div style="position:absolute;left:72.00px;top:130.76px" class="cls_004"><span class="cls_004">In early 2020, a pro-Chinese cross-platform political spam network that Graphika has dubbed</span></div>
+<div style="position:absolute;left:72.00px;top:145.76px" class="cls_002"><span class="cls_002">“</span><A HREF="https://graphika.com/reports/spamouflage/">Spamouflage Dragon</A> </span><span class="cls_002">” </span><span class="cls_004">came out of hiding, standing up new accounts and reactivating dormant</span></div>
+<div style="position:absolute;left:72.00px;top:160.76px" class="cls_004"><span class="cls_004">ones to post about Hong Kong politics, Chinese regime critics and the Chinese response to</span></div>
+<div style="position:absolute;left:72.00px;top:175.76px" class="cls_004"><span class="cls_004">COVID-19.</span></div>
+<div style="position:absolute;left:72.00px;top:205.76px" class="cls_004"><span class="cls_004">Until the platforms took its assets down, the network operated across social media, with</span></div>
+<div style="position:absolute;left:72.00px;top:220.76px" class="cls_004"><span class="cls_004">presence on</span><span class="cls_002"> </span><A HREF="https://www.youtube.com/watch?v=TZL2TQ94Kbg&feature=youtu.be">YouTube</A><span class="cls_004">,</span><span class="cls_002"> </span><A HREF="https://www.facebook.com/pg/Sheila-Torres-101348684836037/posts/?ref=page_internal">Facebook</A> </span><span class="cls_004">, and</span><span class="cls_002"> </span><span class="cls_024">Twitter</span><span class="cls_004"> (all now removed). Some of its assets were</span><span class="cls_002"> </span><span class="cls_024">newly</span></div>
+<div style="position:absolute;left:72.00px;top:235.76px" class="cls_024"><span class="cls_024"> </span><A HREF="https://www.youtube.com/channel/UCAhFyc7ABzi99vkwDbCUskQ/videos">created</A><span class="cls_004"> in early 2020;</span><span class="cls_002"> </span><A HREF="https://www.facebook.com/harmony.becket.3">others</A> </span><span class="cls_002"> </span><span class="cls_004">appeared to have been created earlier, but only posted spam in their</span></div>
+<div style="position:absolute;left:72.00px;top:250.76px" class="cls_004"><span class="cls_004">early days; still others appeared to have been</span><span class="cls_002"> </span><A HREF="https://twitter.com/hammondace/with_replies">hijacked</A> </span><span class="cls_002"> </span><span class="cls_004">from users around the world, especially</span></div>
+<div style="position:absolute;left:72.00px;top:265.76px" class="cls_024"><span class="cls_024"> </span><A HREF="https://www.facebook.com/liunana888/">Bangladesh</A> <span class="cls_002">. </span><span class="cls_004">The network made heavy use of video footage taken from pro-Chinese government</span></div>
+<div style="position:absolute;left:72.00px;top:280.76px" class="cls_004"><span class="cls_004">channels, together with memes and lengthy texts in both Chinese and English. It interspersed its</span></div>
+<div style="position:absolute;left:72.00px;top:295.76px" class="cls_004"><span class="cls_004">political content with spam posts, typically of scenery, basketball, models, and TikTok videos.</span></div>
+<div style="position:absolute;left:72.00px;top:310.76px" class="cls_004"><span class="cls_004">These appeared designed to camouflage the operation’s political content, hence the name.</span></div>
+<div style="position:absolute;left:72.00px;top:340.76px" class="cls_004"><span class="cls_004">Spamouflage Dragon appeared to operate in a dispersed model. Clusters of accounts across</span></div>
+<div style="position:absolute;left:72.00px;top:355.76px" class="cls_004"><span class="cls_004">different platforms shared the same content, indicating that they were connected, but not all the</span></div>
+<div style="position:absolute;left:72.00px;top:370.76px" class="cls_004"><span class="cls_004">clusters had the same primary focus, suggesting a degree of autonomy rather than rigid central</span></div>
+<div style="position:absolute;left:72.00px;top:385.76px" class="cls_004"><span class="cls_004">control. For this reason, we refer to Spamouflage Dragon as a network, rather than an operation.</span></div>
+<div style="position:absolute;left:72.00px;top:415.76px" class="cls_004"><span class="cls_004">When Graphika originally</span><span class="cls_002"> </span><A HREF="https://graphika.com/reports/spamouflage/">identified</A> </span><span class="cls_002"> </span><span class="cls_004">the network in September 2019, it focused on praising the</span></div>
+<div style="position:absolute;left:72.00px;top:430.76px" class="cls_004"><span class="cls_004">Chinese authorities and attacking the Hong Kong protesters, as well as attacking exiled Chinese</span></div>
+<div style="position:absolute;left:72.00px;top:445.76px" class="cls_004"><span class="cls_004">billionaire and regime critic Guo Wengui (</span><span class="cls_006">郭文贵</span><span class="cls_004">, also known as “Miles Kwok”).</span><span class="cls_007">1</span><span class="cls_004"> After its exposure</span></div>
+<div style="position:absolute;left:72.00px;top:460.76px" class="cls_004"><span class="cls_004">and the associated takedowns by platforms, the network largely went into hiding. As international</span></div>
+<div style="position:absolute;left:72.00px;top:475.76px" class="cls_004"><span class="cls_004">pressure grew on the Chinese government for its handling of the COVID-19 outbreak,</span></div>
+<div style="position:absolute;left:72.00px;top:490.76px" class="cls_004"><span class="cls_004">Spamouflage Dragon came out of hiding, turning up the volume of its posts about Hong Kong and</span></div>
+<div style="position:absolute;left:72.00px;top:505.76px" class="cls_004"><span class="cls_004">Guo, and adding in praise for the Chinese government’s response to the virus.</span></div>
+<div style="position:absolute;left:72.00px;top:535.76px" class="cls_004"><span class="cls_004">This activity was prolific, but it failed to break out of its own echo chamber. All the likes, shares,</span></div>
+<div style="position:absolute;left:72.00px;top:550.76px" class="cls_004"><span class="cls_004">and comments on the network’s posts that Graphika has identified came from other members of</span></div>
+<div style="position:absolute;left:72.00px;top:565.76px" class="cls_004"><span class="cls_004">the network. Spamouflage Dragon makes the case once again that not all attempts at online</span></div>
+<div style="position:absolute;left:72.00px;top:580.76px" class="cls_004"><span class="cls_004">influence encounter viral success.</span></div>
+<div style="position:absolute;left:72.00px;top:610.76px" class="cls_004"><span class="cls_004">Spamouflage Dragon is a persistent actor: after the takedowns of late 2019, it tried to rebuild by</span></div>
+<div style="position:absolute;left:72.00px;top:625.76px" class="cls_004"><span class="cls_004">activating, creating or obtaining new assets. This highlights the importance of continuous</span></div>
+<div style="position:absolute;left:72.00px;top:640.76px" class="cls_004"><span class="cls_004">enforcement in this space: networks that have been detected and exposed may try to revive their</span></div>
+<div style="position:absolute;left:72.00px;top:655.76px" class="cls_004"><span class="cls_004">operations with new accounts, but they face the challenge of building an audience while trying to</span></div>
+<div style="position:absolute;left:72.00px;top:670.76px" class="cls_004"><span class="cls_004">stay hidden from the platforms.</span></div>
+<div style="position:absolute;left:72.00px;top:707.75px" class="cls_008"><span class="cls_008"><sup>1</sup></span><span class="cls_009"> Guo’s “G News” network has itself been </span><A HREF="https://www.buzzfeednews.com/article/janelytvynenko/a-site-tied-to-steve-bannon-is-writing-fake-news-about-the?bftwnews&utm_term=4ldqpgc#4ldqpgc">found</A> </span><span class="cls_011"> </span><span class="cls_009">spreading coronavirus misinformation.</span></div>
+<div style="position:absolute;left:303.00px;top:742.25px" class="cls_009"><span class="cls_009">1</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:1604px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background03.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:90.75px" class="cls_003"><span class="cls_003">Background: Spamouflage Dragon</span></div>
+<div style="position:absolute;left:72.00px;top:130.76px" class="cls_004"><span class="cls_004">Graphika identified Spamouflage Dragon in September 2019, afte</span><span class="cls_002">r </span><A HREF="https://blog.twitter.com/en_us/topics/company/2019/information_operations_directed_at_Hong_Kong.html">Twitter</A><span class="cls_002"> </span><span class="cls_004">and</span><span class="cls_002"> </span><A HREF="https://about.fb.com/news/2019/08/removing-cib-china/">Facebook</A> </span><span class="cls_002"> </span><span class="cls_004">exposed</span></div>
+<div style="position:absolute;left:72.00px;top:145.76px" class="cls_004"><span class="cls_004">a state-run information operation on its platform that criticized the Hong Kong protesters and</span></div>
+<div style="position:absolute;left:72.00px;top:160.76px" class="cls_004"><span class="cls_004">praised the Hong Kong and Chinese authorities.</span></div>
+<div style="position:absolute;left:72.00px;top:190.76px" class="cls_004"><span class="cls_004">Working from leads in Twitter’s published dataset, Graphika identified a large-scale spam network</span></div>
+<div style="position:absolute;left:72.00px;top:205.76px" class="cls_004"><span class="cls_004">that centered on YouTube videos but amplified their content across Facebook and Twitter. This</span></div>
+<div style="position:absolute;left:72.00px;top:220.76px" class="cls_004"><span class="cls_004">original network numbered hundreds of accounts across the three main platforms but generated</span></div>
+<div style="position:absolute;left:72.00px;top:235.76px" class="cls_004"><span class="cls_004">little measurable engagement from authentic users.</span></div>
+<div style="position:absolute;left:72.00px;top:265.76px" class="cls_004"><span class="cls_004">A number of behavior patterns characterized the original network: many of its accounts had</span></div>
+<div style="position:absolute;left:72.00px;top:280.76px" class="cls_004"><span class="cls_004">Western, Slavic, or Bangladeshi names and profile pictures but posted in Chinese; they</span></div>
+<div style="position:absolute;left:72.00px;top:295.76px" class="cls_004"><span class="cls_004">interspersed political content with unrelated spam, either video, text, or photographic; sometimes,</span></div>
+<div style="position:absolute;left:72.00px;top:310.76px" class="cls_004"><span class="cls_004">different accounts posted the same content in the same order, suggesting that they were</span></div>
+<div style="position:absolute;left:72.00px;top:325.76px" class="cls_004"><span class="cls_004">automated.</span></div>
+<div style="position:absolute;left:82.50px;top:659.75px" class="cls_013"><span class="cls_013">Timelines for Facebook accounts “Helena Hart” and “Regina Montgomery,” showing identical posts in the</span></div>
+<div style="position:absolute;left:205.50px;top:672.26px" class="cls_013"><span class="cls_013">identical order. From Graphika’s original report.</span></div>
+<div style="position:absolute;left:303.00px;top:742.25px" class="cls_009"><span class="cls_009">2</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background04.jpg" width=612 height=792></div>
+<div style="position:absolute;left:78.00px;top:233.00px" class="cls_013"><span class="cls_013">Video pages for “Lew Belchenko” and “Miroslaw Belotelov,” on YouTube (both removed); screenshots taken</span></div>
+<div style="position:absolute;left:89.25px;top:246.50px" class="cls_013"><span class="cls_013">on September 19, 2019.  Note the same posts in the same order and the Slavic names combined with</span></div>
+<div style="position:absolute;left:205.50px;top:260.00px" class="cls_013"><span class="cls_013">Chinese posts. From Graphika’s original report.</span></div>
+<div style="position:absolute;left:72.00px;top:288.26px" class="cls_004"><span class="cls_004">The political content centered around two themes: the Hong Kong protests and Guo Wengui, a</span></div>
+<div style="position:absolute;left:72.00px;top:303.26px" class="cls_004"><span class="cls_004">vocal critic of the Chinese Communist Party (CCP). Their stance was routinely pro-CCP and</span></div>
+<div style="position:absolute;left:72.00px;top:318.26px" class="cls_004"><span class="cls_004">critical of Guo, whose followers it referred to as “ants,” and the protesters, whom it characterized</span></div>
+<div style="position:absolute;left:72.00px;top:333.26px" class="cls_004"><span class="cls_004">as “thugs” and “cockroaches.”</span></div>
+<div style="position:absolute;left:78.00px;top:659.75px" class="cls_013"><span class="cls_013">Posts by Spamouflage asset “Michael Welsh” (removed). Attacks on Guo are marked in red, criticism of the</span></div>
+<div style="position:absolute;left:78.75px;top:673.25px" class="cls_013"><span class="cls_013">protesters is marked in yellow. A video attacking both is marked in orange. From Graphika’s original report.</span></div>
+<div style="position:absolute;left:303.00px;top:742.25px" class="cls_009"><span class="cls_009">3</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:3208px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background05.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:71.50px" class="cls_004"><span class="cls_004">The network used its assets in two ways. Some were </span><span class="cls_015">primary posters</span><span class="cls_004">. These assets posted series</span></div>
+<div style="position:absolute;left:72.00px;top:86.50px" class="cls_004"><span class="cls_004">of video or photographic content, usually with accompanying text making a political point. Some</span></div>
+<div style="position:absolute;left:72.00px;top:101.50px" class="cls_004"><span class="cls_004">appear to have been taken over from authentic users; for example, the YouTube channel Michael</span></div>
+<div style="position:absolute;left:72.00px;top:116.50px" class="cls_004"><span class="cls_004">Welsh (removed), illustrated above, was originally called Somerset Savings and carried the logo of</span></div>
+<div style="position:absolute;left:72.00px;top:131.51px" class="cls_004"><span class="cls_004">an American bank of that name.</span></div>
+<div style="position:absolute;left:72.00px;top:161.51px" class="cls_004"><span class="cls_004">Other assets were </span><span class="cls_015">amplifiers</span><span class="cls_004">. Often created only days before, and more obviously inauthentic</span></div>
+<div style="position:absolute;left:72.00px;top:176.51px" class="cls_004"><span class="cls_004">accounts, these accounts liked, shared, replied to, or commented on the primary accounts’ posts,</span></div>
+<div style="position:absolute;left:72.00px;top:191.51px" class="cls_004"><span class="cls_004">giving them the appearance of popular engagement.</span></div>
+<div style="position:absolute;left:79.50px;top:557.00px" class="cls_013"><span class="cls_013">Left, a post attacking Guo Wengui from suspected initiator asset “</span><span class="cls_026">Md Morshedul Alam</span><span class="cls_027">,</span><span class="cls_013">” a public Facebook</span></div>
+<div style="position:absolute;left:73.50px;top:570.50px" class="cls_013"><span class="cls_013">“interest” page designed to look like the personal account of a South Asian man but posting in Chinese. Right,</span></div>
+<div style="position:absolute;left:72.75px;top:584.00px" class="cls_013"><span class="cls_013">one of the accounts that commented on its post, suspected amplifier asset “</span><A HREF="https://www.facebook.com/christine.langlois.7186/timeline?lst=100013790053151:100040671923029:1585399082">Christine Langlois.</A> </span><span class="cls_013">” This account</span></div>
+<div style="position:absolute;left:93.00px;top:597.50px" class="cls_013"><span class="cls_013">only posted in Chinese, and its first profile picture, a blonde woman, was in fact taken from a</span><span class="cls_017"> </span><A HREF="https://xhamster.porncache.net/photos/gallery/10680776/221255797">model</A> </span><span class="cls_017">.</span></div>
+<div style="position:absolute;left:303.00px;top:742.25px" class="cls_009"><span class="cls_009">4</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4010px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background06.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:84.75px" class="cls_003"><span class="cls_003">Sleeping Dragon</span></div>
+<div style="position:absolute;left:72.00px;top:124.75px" class="cls_004"><span class="cls_004">Following Graphika’s exposure of Spamouflage Dragon, the platforms took down a significant</span></div>
+<div style="position:absolute;left:72.00px;top:139.76px" class="cls_004"><span class="cls_004">number of accounts and pages affiliated with this operation. In response, the network appears to</span></div>
+<div style="position:absolute;left:72.00px;top:154.76px" class="cls_004"><span class="cls_004">have tried to go “under the radar,” activating or acquiring a small number of dormant assets but</span></div>
+<div style="position:absolute;left:72.00px;top:169.76px" class="cls_004"><span class="cls_004">using them to post at a far lower level and with a far lower proportion of political content.</span></div>
+<div style="position:absolute;left:72.00px;top:199.76px" class="cls_004"><span class="cls_004">For example, one Spamouflage Dragon asset that came to the fore in early 2020 was the</span></div>
+<div style="position:absolute;left:72.00px;top:214.76px" class="cls_004"><span class="cls_004">Facebook page</span><span class="cls_002"> </span><A HREF="https://www.facebook.com/%E7%94%BB%E8%8B%91%E4%B9%8B%E8%8A%B1-1976910979282256/">画苑之花</A> </span><span class="cls_002"> </span><span class="cls_004">(Flower of the Garden), which was created on January 16, 2019. It</span></div>
+<div style="position:absolute;left:72.00px;top:229.76px" class="cls_004"><span class="cls_004">originally had a name characteristic of users in Bangladesh, suggesting that it was not created</span></div>
+<div style="position:absolute;left:72.00px;top:244.76px" class="cls_004"><span class="cls_004">with a Chinese-language operation in mind.</span></div>
+<div style="position:absolute;left:120.75px;top:504.26px" class="cls_013"><span class="cls_013">Page transparency settings for “Flower of the Garden,” showing the Bangladeshi name.</span></div>
+<div style="position:absolute;left:72.00px;top:533.51px" class="cls_004"><span class="cls_004">Throughout the first months of 2019, this posted uplifting English-language comments and</span></div>
+<div style="position:absolute;left:72.00px;top:548.51px" class="cls_004"><span class="cls_004">images of scenery. As the initial wave of takedowns hit the network, it shifted to a characteristic</span></div>
+<div style="position:absolute;left:72.00px;top:563.51px" class="cls_004"><span class="cls_004">blend of Chinese-language political posts and spamouflage - either because the Spamouflage</span></div>
+<div style="position:absolute;left:72.00px;top:578.51px" class="cls_004"><span class="cls_004">Dragon network had been maintaining it as a backup account and had now activated it, or</span></div>
+<div style="position:absolute;left:72.00px;top:593.51px" class="cls_004"><span class="cls_004">because the network acquired it from a spam operator and repurposed it.</span></div>
+<div style="position:absolute;left:303.00px;top:742.25px" class="cls_009"><span class="cls_009">5</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4812px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background07.jpg" width=612 height=792></div>
+<div style="position:absolute;left:96.00px;top:346.25px" class="cls_013"><span class="cls_013">Posts by Flower of the Garden on October 8, 2019, showing the mix of spam and anti-Guo content.</span></div>
+<div style="position:absolute;left:72.00px;top:374.51px" class="cls_004"><span class="cls_004">However, the proportion of political content it posted remained very low: throughout the final</span></div>
+<div style="position:absolute;left:72.00px;top:389.51px" class="cls_004"><span class="cls_004">months of the year, the page posted almost exclusively scenic content, sometimes interspersing</span></div>
+<div style="position:absolute;left:72.00px;top:404.51px" class="cls_004"><span class="cls_004">it with uplifting slogans and movie references. It did post the occasional political content, but only</span></div>
+<div style="position:absolute;left:72.00px;top:419.51px" class="cls_004"><span class="cls_004">on the order of one political post per week.</span></div>
+<div style="position:absolute;left:183.00px;top:666.50px" class="cls_013"><span class="cls_013">Typical posts by Flower of the Garden in November 2019.</span></div>
+<div style="position:absolute;left:303.00px;top:742.25px" class="cls_009"><span class="cls_009">6</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:5614px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background08.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:71.50px" class="cls_004"><span class="cls_004">This continued throughout November, December, and much of January; one of its rare political</span></div>
+<div style="position:absolute;left:72.00px;top:86.50px" class="cls_004"><span class="cls_004">posts in this period concerned demonstrations in Hong Kong on New Year’s Eve.</span></div>
+<div style="position:absolute;left:156.75px;top:364.25px" class="cls_013"><span class="cls_013">Hong Kong-focused post by Flower of the Garden on January 2, 2019.</span></div>
+<div style="position:absolute;left:72.00px;top:392.51px" class="cls_004"><span class="cls_004">At the very end of January - a time when China was under increasing international pressure for its</span></div>
+<div style="position:absolute;left:72.00px;top:407.51px" class="cls_004"><span class="cls_004">botched handling of the beginning of the coronavirus outbreak, with the United States imposing a</span></div>
+<div style="position:absolute;left:72.00px;top:422.51px" class="cls_024"><span class="cls_024"> </span><A HREF="https://apnews.com/0dc271ad7f7917374a5a0cfb49273783">travel ban</A> <span class="cls_002"> </span><span class="cls_004">on January 31 - Flower of the Garden bloomed once more, posting a much higher</span></div>
+<div style="position:absolute;left:72.00px;top:437.51px" class="cls_004"><span class="cls_004">proportion of political content that praised China and attacked its international critics - and Guo.</span></div>
+<div style="position:absolute;left:84.75px;top:620.00px" class="cls_013"><span class="cls_013">Posts by Flower of the Garden, late January and early February 2020. Left to right, attacking Guo; urging</span></div>
+<div style="position:absolute;left:129.00px;top:633.50px" class="cls_013"><span class="cls_013">prevention; attacking “foreign media”; and expressing confidence in China’s victory.</span></div>
+<div style="position:absolute;left:72.00px;top:661.76px" class="cls_004"><span class="cls_004">This suggests that the Flower of the Garden page was a commercial acquisition, created by users</span></div>
+<div style="position:absolute;left:72.00px;top:676.76px" class="cls_004"><span class="cls_004">unrelated to the network (perhaps in Bangladesh), obtained by the operation around the time of</span></div>
+<div style="position:absolute;left:303.00px;top:742.25px" class="cls_009"><span class="cls_009">7</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:6416px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background09.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:71.50px" class="cls_004"><span class="cls_004">the first disruption, but then run in an online variation on “stealth mode” until the operators</span></div>
+<div style="position:absolute;left:72.00px;top:86.50px" class="cls_004"><span class="cls_004">decided to turn up the volume.</span></div>
+<div style="position:absolute;left:72.00px;top:116.50px" class="cls_004"><span class="cls_004">This “stealth” phase remained a cross-platform effort: Flower of the Garden shared posts from a</span></div>
+<div style="position:absolute;left:72.00px;top:131.51px" class="cls_004"><span class="cls_004">number of YouTube channels that appear to have been members of the network. For example, its</span></div>
+<div style="position:absolute;left:72.00px;top:146.51px" class="cls_004"><span class="cls_004">post that expressed confidence in China’s victory, illustrated above, led to a YouTube channel</span></div>
+<div style="position:absolute;left:72.00px;top:161.51px" class="cls_004"><span class="cls_004">called</span><span class="cls_002"> </span><A HREF="https://www.youtube.com/channel/UC2PV4rfVZRmBCFoFpWjPAfg/videos">爷爷最强</A> </span><span class="cls_002"> </span><span class="cls_004">(removed) - or </span><span class="cls_015">Grandpa is the strongest</span><span class="cls_004"> - complete with an image of an old man.</span></div>
+<div style="position:absolute;left:72.00px;top:191.51px" class="cls_004"><span class="cls_004">This channel was created on August 12, 2015. It posted three videos advertising free online</span></div>
+<div style="position:absolute;left:72.00px;top:206.51px" class="cls_004"><span class="cls_004">movies in English in 2015-2016, then fell silent. On October 23, 2019, it started posting short</span></div>
+<div style="position:absolute;left:72.00px;top:221.51px" class="cls_004"><span class="cls_004">spam videos, each with a number as the only headline. It posted 32 such videos, none more than</span></div>
+<div style="position:absolute;left:72.00px;top:236.51px" class="cls_004"><span class="cls_004">11 seconds long, over the next two weeks. Starting on November 8, 2019, it began interspersing</span></div>
+<div style="position:absolute;left:72.00px;top:251.51px" class="cls_004"><span class="cls_004">these spamouflage videos with longer segments (roughly 3 minutes) on the Hong Kong protests</span></div>
+<div style="position:absolute;left:72.00px;top:266.51px" class="cls_004"><span class="cls_004">that it posted every few days, for example on November 8, November 10, November 14,</span></div>
+<div style="position:absolute;left:72.00px;top:281.51px" class="cls_004"><span class="cls_004">November 20, and December 2. Starting on February 3, it turned its attention to the virus, claiming</span></div>
+<div style="position:absolute;left:72.00px;top:296.51px" class="cls_004"><span class="cls_004">that “We will definitely overcome the epidemic”; on February 19, it accused Guo’s supporters of</span></div>
+<div style="position:absolute;left:72.00px;top:311.51px" class="cls_004"><span class="cls_004">spreading “conspiracy” theories about the virus.</span></div>
+<div style="position:absolute;left:72.00px;top:341.51px" class="cls_004"><span class="cls_004">The changing pattern of behavior on this channel suggests an account that was created by an</span></div>
+<div style="position:absolute;left:72.00px;top:356.51px" class="cls_004"><span class="cls_004">unrelated user and abandoned in 2016, then acquired by the Spamouflage Dragon network in</span></div>
+<div style="position:absolute;left:72.00px;top:371.51px" class="cls_004"><span class="cls_004">October 2019, after the first round of takedowns. As with other assets, it initially focused on the</span></div>
+<div style="position:absolute;left:72.00px;top:386.51px" class="cls_004"><span class="cls_004">Hong Kong protests before pivoting to coronavirus messaging and attacks on Guo.</span></div>
+<div style="position:absolute;left:303.00px;top:742.25px" class="cls_009"><span class="cls_009">8</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:7218px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background10.jpg" width=612 height=792></div>
+<div style="position:absolute;left:82.50px;top:516.50px" class="cls_013"><span class="cls_013">Videos by “Grandpa is the strongest” (removed), ordered by date, with the headlines auto-translated from</span></div>
+<div style="position:absolute;left:90.00px;top:530.00px" class="cls_013"><span class="cls_013">Chinese. The upper image shows the earliest known posts, the lower image shows posts in February.</span></div>
+<div style="position:absolute;left:72.00px;top:558.26px" class="cls_004"><span class="cls_004">The same pattern played out on Twitter. For example, one account that posted Spamouflage</span></div>
+<div style="position:absolute;left:72.00px;top:573.26px" class="cls_004"><span class="cls_004">Dragon content in March 2020 was called </span><A HREF="https://twitter.com/kstaceee/with_replies">@kstaceee</A> </span><span class="cls_004">, screen name Kathryn Stacey. This account</span></div>
+<div style="position:absolute;left:72.00px;top:588.26px" class="cls_004"><span class="cls_004">was created in 2009, when it posted in English, but it fell silent in 2013. It posted a few apparently</span></div>
+<div style="position:absolute;left:72.00px;top:603.26px" class="cls_004"><span class="cls_004">commercial tweets and offers of a followback in English between 2016 and September 2019 and</span></div>
+<div style="position:absolute;left:72.00px;top:618.26px" class="cls_004"><span class="cls_004">then began posting in Chinese about Hong Kong in late October 2019, at a very low level - less</span></div>
+<div style="position:absolute;left:72.00px;top:633.26px" class="cls_004"><span class="cls_004">than a tweet a day on average. This appears to have been an account created by a genuine</span></div>
+<div style="position:absolute;left:72.00px;top:648.26px" class="cls_004"><span class="cls_004">individual but abandoned in 2013, hijacked and repurposed by a commercial operator in 2016,</span></div>
+<div style="position:absolute;left:72.00px;top:663.26px" class="cls_004"><span class="cls_004">and then taken over by Spamouflage Dragon in late October 2019, after the initial round of</span></div>
+<div style="position:absolute;left:72.00px;top:678.26px" class="cls_004"><span class="cls_004">takedowns.</span></div>
+<div style="position:absolute;left:303.00px;top:742.25px" class="cls_009"><span class="cls_009">9</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:8020px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background11.jpg" width=612 height=792></div>
+<div style="position:absolute;left:209.25px;top:305.00px" class="cls_013"><span class="cls_013">Timeline of @kstaceee’s behavior from 2011.</span></div>
+<div style="position:absolute;left:72.00px;top:333.26px" class="cls_004"><span class="cls_004">This account, too, shifted its focus in late January to talking about the coronavirus. In March, as</span></div>
+<div style="position:absolute;left:72.00px;top:348.26px" class="cls_004"><span class="cls_004">the Chinese government’s narrative shifted to arguing that China had responded better than the</span></div>
+<div style="position:absolute;left:72.00px;top:363.26px" class="cls_004"><span class="cls_004">United States, it tweeted about the reported wave of xenophobic attacks on Chinese Americans</span></div>
+<div style="position:absolute;left:72.00px;top:378.26px" class="cls_004"><span class="cls_004">linked to the outbreak.</span></div>
+<div style="position:absolute;left:78.00px;top:647.75px" class="cls_013"><span class="cls_013">Tweets by @kstaceee in Chinese on coronavirus and US attacks on Chinese Americans. The left-hand post</span></div>
+<div style="position:absolute;left:229.50px;top:661.25px" class="cls_013"><span class="cls_013">links to an article by</span><span class="cls_017"> </span><A HREF="https://www.mediamatters.org/fox-friends/fox-news-fearmongers-about-coronavirus-dubiously-sourced-viral-video">Media Matters</A> </span><span class="cls_017">.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">10</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:8822px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background12.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:71.50px" class="cls_004"><span class="cls_004">Similarly, an account called </span><A HREF="https://twitter.com/hammondace/with_replies">Steve Jones</A> </span><span class="cls_004"> (handle @hammondace) was created in 2010 and gave a</span></div>
+<div style="position:absolute;left:72.00px;top:86.50px" class="cls_004"><span class="cls_004">location in Leighton Buzzard, England. It fell silent in mid-2018, began posting apparent</span></div>
+<div style="position:absolute;left:72.00px;top:101.50px" class="cls_004"><span class="cls_004">English-language spam in August 2019, and then shifted to Chinese-language political messaging</span></div>
+<div style="position:absolute;left:72.00px;top:116.50px" class="cls_004"><span class="cls_004">about the Hong Kong protests on October 25, 2019. Again, this appears to have been a hijacked</span></div>
+<div style="position:absolute;left:72.00px;top:131.51px" class="cls_004"><span class="cls_004">account that was repurposed for political messaging.</span></div>
+<div style="position:absolute;left:222.00px;top:388.01px" class="cls_013"><span class="cls_013">Timeline of @hammondace’s behavior.</span></div>
+<div style="position:absolute;left:92.25px;top:653.75px" class="cls_013"><span class="cls_013">Tweets by @hammondace and @kstaceee on March 27; note the retweeters, which have since been</span></div>
+<div style="position:absolute;left:281.25px;top:666.26px" class="cls_013"><span class="cls_013">suspended.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">11</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:9624px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background13.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:71.50px" class="cls_004"><span class="cls_004">The network’s attempts to hide were not wholly successful. The timelines of operation assets</span></div>
+<div style="position:absolute;left:72.00px;top:86.50px" class="cls_004"><span class="cls_004">over this period show a patchwork effect, with some of the posts they amplified having already</span></div>
+<div style="position:absolute;left:72.00px;top:101.50px" class="cls_004"><span class="cls_004">been removed. This pattern suggests a cat-and-mouse game, with the Spamouflage Dragon</span></div>
+<div style="position:absolute;left:72.00px;top:116.50px" class="cls_004"><span class="cls_004">operators trying to stay in business without getting caught and the different platforms periodically</span></div>
+<div style="position:absolute;left:72.00px;top:131.51px" class="cls_004"><span class="cls_004">disabling some network assets, most likely as a result of automated detection.</span></div>
+<div style="position:absolute;left:76.50px;top:592.25px" class="cls_013"><span class="cls_013">Posts by Harmony Becket in February 2020, sharing subsequently deleted content from Facebook (left) and</span></div>
+<div style="position:absolute;left:91.50px;top:605.75px" class="cls_013"><span class="cls_013">YouTube (removed). Note the content, with its focus on Chinese unity and attacks on the Hong Kong</span></div>
+<div style="position:absolute;left:273.00px;top:618.26px" class="cls_013"><span class="cls_013">demonstrators.</span></div>
+<div style="position:absolute;left:72.00px;top:647.51px" class="cls_004"><span class="cls_004">The impression that Spamouflage Dragon tried to hide after the exposures of September-October</span></div>
+<div style="position:absolute;left:72.00px;top:662.51px" class="cls_004"><span class="cls_004">2019 is reinforced by the way some of its assets changed their names. This is most easily</span></div>
+<div style="position:absolute;left:72.00px;top:677.51px" class="cls_004"><span class="cls_004">discernible on Facebook, where the Page Transparency feature allows viewers to see when pages</span></div>
+<div style="position:absolute;left:72.00px;top:692.51px" class="cls_004"><span class="cls_004">shifted identity.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">12</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:10426px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background14.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:86.50px" class="cls_004"><span class="cls_004">In our 2019 report, Graphika pointed out how many of the Spamouflage Dragon pages claimed</span></div>
+<div style="position:absolute;left:72.00px;top:101.50px" class="cls_004"><span class="cls_004">identities linked to Bangladesh; a surprisingly high number of these Chinese-language pages had</span></div>
+<div style="position:absolute;left:72.00px;top:116.50px" class="cls_004"><span class="cls_004">names referencing Islam, or beginning with “Md” or “MD,” a common abbreviation for</span></div>
+<div style="position:absolute;left:72.00px;top:131.51px" class="cls_004"><span class="cls_004">“Mohammad”</span><span class="cls_002"> </span><A HREF="https://www.proz.com/kudoz/english/general-conversation-greetings-letters/2517101-md-name-surname.html">specific</A><span class="cls_004"> to</span><span class="cls_002"> </span><A HREF="http://www.itanveer.com/2013/03/nabbing-the-names/">Bangladesh</A> </span><span class="cls_004">. Such pages included</span><span class="cls_002"> </span><span class="cls_024">Md Farok</span><span class="cls_002"> </span><span class="cls_004">(later changed to just</span></div>
+<div style="position:absolute;left:72.00px;top:146.51px" class="cls_004"><span class="cls_004">“Farok”),</span><span class="cls_002"> </span><A HREF="https://www.facebook.com/pg/Md-Shaiful-316496269045152/posts/?ref=page_internal">Md Shaiful</A><span class="cls_004">, and</span><span class="cls_002"> </span><A HREF="https://www.facebook.com/MD-Rashed-2083187601736523/">MD Rashed</A> </span><span class="cls_002">.</span><span class="cls_004"> Of note, each page was merged with a page of the same</span></div>
+<div style="position:absolute;left:72.00px;top:161.51px" class="cls_004"><span class="cls_004">name on the day it was created, a pattern that is (thus far) unique to Spamouflage Dragon among</span></div>
+<div style="position:absolute;left:72.00px;top:176.51px" class="cls_004"><span class="cls_004">the influence operations Graphika has studied. This may have been an attempt to give the new</span></div>
+<div style="position:absolute;left:72.00px;top:191.51px" class="cls_004"><span class="cls_004">page followers from an older one, or to hide the older one’s tracks.</span></div>
+<div style="position:absolute;left:77.25px;top:602.00px" class="cls_013"><span class="cls_013">Page transparency settings for original Spamouflage Dragon assets Md Shaiful, MD Rashed, and Md Farok.</span></div>
+<div style="position:absolute;left:105.00px;top:614.51px" class="cls_013"><span class="cls_013">Note the way each page was merged with a page of the same name on the day it was created.</span></div>
+<div style="position:absolute;left:72.00px;top:643.76px" class="cls_004"><span class="cls_004">On a number of occasions in the investigation into the revived Spamouflage Dragon network,</span></div>
+<div style="position:absolute;left:72.00px;top:658.76px" class="cls_004"><span class="cls_004">Graphika discovered pages with Chinese names that had been changed from Bangladeshi ones.</span></div>
+<div style="position:absolute;left:72.00px;top:673.76px" class="cls_004"><span class="cls_004">Flower of the Garden was not the only one. The page</span><span class="cls_002"> </span><A HREF="https://www.facebook.com/%E5%92%96%E5%95%A1%E6%9D%AF-573798403056197/">咖啡杯</A> </span><span class="cls_004"> (coffee cup) was created as “Monirul</span></div>
+<div style="position:absolute;left:72.00px;top:688.76px" class="cls_004"><span class="cls_004">Islam” on November 25, 2018 and merged with a page of the same name on the same day. On</span></div>
+<div style="position:absolute;left:72.00px;top:703.76px" class="cls_004"><span class="cls_004">February 24, 2020, the name changed to the Chinese one.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">13</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:11228px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background15.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:315.50px" class="cls_013"><span class="cls_013">Page transparency for “coffee cup,” showing how it began life as Monirul Islam and merged with a page of the</span></div>
+<div style="position:absolute;left:247.50px;top:328.01px" class="cls_013"><span class="cls_013">same name that same day.</span></div>
+<div style="position:absolute;left:72.00px;top:357.26px" class="cls_004"><span class="cls_004">A rather more recent page, currently called </span><A HREF="https://www.facebook.com/monir22334/">唐悠然</A> </span><span class="cls_002"> </span><span class="cls_004">(Yu Yuhan), began its life as “Mohammad</span></div>
+<div style="position:absolute;left:72.00px;top:372.26px" class="cls_004"><span class="cls_004">Monir” on October 27, 2019, after the first major round of disruptions. It merged with a page</span></div>
+<div style="position:absolute;left:72.00px;top:387.26px" class="cls_004"><span class="cls_004">called </span><span class="cls_006">唐悠然</span><span class="cls_004"> (Tang Youran) the same day, perhaps as a way to hide the latter’s traces. On</span></div>
+<div style="position:absolute;left:72.00px;top:402.26px" class="cls_004"><span class="cls_004">February 18, 2020, as Spamouflage Dragon ramped up its output, it changed its name to the</span></div>
+<div style="position:absolute;left:72.00px;top:417.26px" class="cls_004"><span class="cls_004">current Chinese format.</span></div>
+<div style="position:absolute;left:148.50px;top:678.50px" class="cls_013"><span class="cls_013">Page transparency for Yu Yuhan, showing its origin as Mohammad Monir.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">14</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:12030px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background16.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:71.50px" class="cls_004"><span class="cls_004">Finally, the page</span><span class="cls_002"> </span><A HREF="https://www.facebook.com/liunana888/?__tn__=kCH-R&eid=ARB51Ce3xWQa5y7rmllF0v78azHKM3d5pQITTE2e1GdMxbKgdPwZHQPTwICvk34Do1HxT9b-rw-mvQXK&hc_ref=ARSvqbyKrGBma-rOhfaiIjAePfzrweuBDaT6vrO0iGIiRPnDdFcD9lYllGEHp_97loQ&fref=nf">娜娜</A> </span><span class="cls_002"> </span><span class="cls_004">(Nana) began its shadowy existence on December 6, 2019, as “M K Harunur</span></div>
+<div style="position:absolute;left:72.00px;top:86.50px" class="cls_004"><span class="cls_004">Rashid.” In keeping with Spamouflage Dragon’s known practice, it merged with a page of the</span></div>
+<div style="position:absolute;left:72.00px;top:101.50px" class="cls_004"><span class="cls_004">same name on the same day. On February 19, 2020, it changed to the current Chinese name.</span></div>
+<div style="position:absolute;left:129.00px;top:350.00px" class="cls_013"><span class="cls_013">Page transparency for Nana, showing its transformation from M K Harunur Rashid.</span></div>
+<div style="position:absolute;left:72.00px;top:378.26px" class="cls_004"><span class="cls_004">It is worth noting that each of these assets had a little under 5,000 followers, the level at which</span></div>
+<div style="position:absolute;left:72.00px;top:393.26px" class="cls_004"><span class="cls_004">Facebook’s page transparency setting automatically shows where a page is administered from.</span></div>
+<div style="position:absolute;left:72.00px;top:408.26px" class="cls_004"><span class="cls_004">This may be coincidence, but so many of the Spamouflage Dragon assets had followings in the</span></div>
+<div style="position:absolute;left:72.00px;top:423.26px" class="cls_004"><span class="cls_004">range from 4,000 to 4,900, and yet had so little engagement on any of their posts, that it may also</span></div>
+<div style="position:absolute;left:72.00px;top:438.26px" class="cls_004"><span class="cls_004">indicate a policy of purchasing enough followers to make the assets look authoritative, without</span></div>
+<div style="position:absolute;left:72.00px;top:453.26px" class="cls_004"><span class="cls_004">obtaining so many that they triggered the transparency setting.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">15</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:12832px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background17.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:84.75px" class="cls_003"><span class="cls_003">Catching COVID-19</span></div>
+<div style="position:absolute;left:72.00px;top:124.75px" class="cls_004"><span class="cls_004">The Spamouflage Dragon network appears to have responded to COVID-19 global conversations</span></div>
+<div style="position:absolute;left:72.00px;top:139.76px" class="cls_004"><span class="cls_004">and geopolitical tensions in two ways. First, as we have seen, it began posting coronavirus-related</span></div>
+<div style="position:absolute;left:72.00px;top:154.76px" class="cls_004"><span class="cls_004">content from its existing assets. Second, it acquired or created new accounts to amplify its</span></div>
+<div style="position:absolute;left:72.00px;top:169.76px" class="cls_004"><span class="cls_004">messaging.</span></div>
+<div style="position:absolute;left:72.00px;top:199.76px" class="cls_004"><span class="cls_004">This, again, was cross-platform activity; for example, on February 19, 2020, the YouTube channels</span></div>
+<div style="position:absolute;left:72.00px;top:214.76px" class="cls_024"><span class="cls_024"> </span><A HREF="https://www.youtube.com/channel/UCPLvLBtY2iBrgCD-ZAu1V9w/about">hu meiyi</A><span class="cls_002"> </span><span class="cls_004">and</span><span class="cls_002"> </span><A HREF="https://www.youtube.com/channel/UCKKS8ukYxqIR4sjYp-sjC1g/about">niu jiaowei</A> </span><span class="cls_002"> </span><span class="cls_004">(both removed) and the Facebook accounts</span><span class="cls_002"> </span><span class="cls_024">Leda Calvo</span><span class="cls_004"> and </span><span class="cls_024">Uta Flores</span></div>
+<div style="position:absolute;left:72.00px;top:229.76px" class="cls_004"><span class="cls_004">were created, either by the Spamouflage Dragon network or by an external supplier. On February</span></div>
+<div style="position:absolute;left:72.00px;top:244.76px" class="cls_004"><span class="cls_004">3-5, the Twitter account</span><span class="cls_002"> </span><A HREF="https://twitter.com/MarieJo62790318">Marie Johnson</A><span class="cls_004">, the Facebook page </span><span class="cls_006">自香烟</span><span class="cls_004"> (</span><A HREF="https://www.facebook.com/%E8%87%AA%E9%A6%99%E7%83%9F-107975677435640/">Zi Xiangyan</A> </span><span class="cls_004">), and the</span></div>
+<div style="position:absolute;left:72.00px;top:259.76px" class="cls_004"><span class="cls_004">YouTube channe</span><span class="cls_002">l </span><span class="cls_024">Tina</span><span class="cls_002"> </span><span class="cls_024">Lawler</span><span class="cls_002"> </span><span class="cls_004">(removed) were created.</span></div>
+<div style="position:absolute;left:72.00px;top:289.76px" class="cls_004"><span class="cls_004">These acted as typical operation amplifiers. For example, neither “hu meiyi” nor “niu jiaowei”</span></div>
+<div style="position:absolute;left:72.00px;top:304.76px" class="cls_004"><span class="cls_004">posted any of its own content, but each maintained a</span><span class="cls_002"> </span><span class="cls_024">playlist</span><span class="cls_029"> </span><span class="cls_024">featuring</span><span class="cls_002"> </span><span class="cls_004">(removed) the same ten</span></div>
+<div style="position:absolute;left:72.00px;top:319.76px" class="cls_004"><span class="cls_004">videos in the same order. Six were subsequently deleted; the other four all praised China’s</span></div>
+<div style="position:absolute;left:72.00px;top:334.76px" class="cls_004"><span class="cls_004">reaction to COVID-19.</span></div>
+<div style="position:absolute;left:73.50px;top:593.75px" class="cls_013"><span class="cls_013">Playlists on YouTube by hu meiyi  and niu jiaowei (both removed), with the headlines automatically translated</span></div>
+<div style="position:absolute;left:113.25px;top:607.25px" class="cls_013"><span class="cls_013">from Chinese. Graphika verified that the six deleted videos were the same on each playlist.</span></div>
+<div style="position:absolute;left:72.00px;top:635.51px" class="cls_004"><span class="cls_004">Importantly for the purpose of attributing these new assets to the same network, they intersected</span></div>
+<div style="position:absolute;left:72.00px;top:650.51px" class="cls_004"><span class="cls_004">with the known Spamouflage Dragon assets of the October 2019 vintage. For example, the</span></div>
+<div style="position:absolute;left:72.00px;top:665.51px" class="cls_004"><span class="cls_004">Facebook page Zi Xiangyan, created on February 4, 2020, shared content from Flower of the</span></div>
+<div style="position:absolute;left:72.00px;top:680.51px" class="cls_004"><span class="cls_004">Garden. The Twitter account </span><span class="cls_006">自由东北电台</span><span class="cls_004"> (Free northeast radio,</span><span class="cls_002"> </span><A HREF="https://twitter.com/RNA_Chinese/with_replies">@RNA_Chinese</A> </span><span class="cls_004">, exposed as a</span></div>
+<div style="position:absolute;left:72.00px;top:695.51px" class="cls_004"><span class="cls_004">pro-Chinese operation by</span><span class="cls_002"> </span><A HREF="https://www.propublica.org/article/how-china-built-a-twitter-propaganda-machine-then-let-it-loose-on-coronavirus">ProPublica</A> </span><span class="cls_004">) retweeted @kstaceee. This account was created on March</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">16</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:13634px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background18.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:71.50px" class="cls_004"><span class="cls_004">9, 2020, and its name and logo closely resembled the genuine US government-funded Radio Free</span></div>
+<div style="position:absolute;left:72.00px;top:86.50px" class="cls_004"><span class="cls_004">Asia (@RFA_Chinese).</span></div>
+<div style="position:absolute;left:77.25px;top:322.25px" class="cls_013"><span class="cls_013">Shares by new Spamouflage Dragon assets of older ones. Left, Facebook share by Xi Ziangyan of Flower of</span></div>
+<div style="position:absolute;left:167.25px;top:335.75px" class="cls_013"><span class="cls_013">the Garden; right, Twitter share by @RNA_Chinese of @kstaceee.</span></div>
+<div style="position:absolute;left:72.00px;top:364.01px" class="cls_004"><span class="cls_004">Similarly, the newly created Twitter account </span><A HREF="https://twitter.com/JoshuaParmer8">@JoshuaParmer8</A> </span><span class="cls_002"> </span><span class="cls_004">and the earlier Spamouflage</span></div>
+<div style="position:absolute;left:72.00px;top:379.01px" class="cls_004"><span class="cls_004">Dragon Facebook page</span><span class="cls_002"> </span><A HREF="https://www.facebook.com/Uzzal-Miah-2008192119234091/">Uzzal Miah</A> </span><span class="cls_002"> </span><span class="cls_004">(created on January 19, 2019, three days after Flower of the</span></div>
+<div style="position:absolute;left:72.00px;top:394.01px" class="cls_004"><span class="cls_004">Garden) posted a series of the same landscape photos in the same order.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">17</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:14436px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background19.jpg" width=612 height=792></div>
+<div style="position:absolute;left:132.75px;top:615.50px" class="cls_013"><span class="cls_013">Landscape posts by Uzzal Miah (left) and @JoshuaParmer8 (right), a week apart.</span></div>
+<div style="position:absolute;left:72.00px;top:643.76px" class="cls_004"><span class="cls_004">Both the newly created Twitter account</span><span class="cls_002"> </span><A HREF="https://twitter.com/BenedettoBrind1/status/1242984271171555328">@BenedettoBrind1</A> </span><span class="cls_007">2</span><span class="cls_004"> and the older Spamouflage Dragon</span></div>
+<div style="position:absolute;left:72.00px;top:658.76px" class="cls_004"><span class="cls_004">page Harmony Becket shared a link to the same YouTube </span><A HREF="https://www.youtube.com/watch?v=0aj7Zv9WK1o&feature=youtu.be&fbclid=IwAR3ARKQCjIfd0feEWz7qg4wGA62yh6zP85yFb6zsGraxsMBDppFas_z8gBw">video</A> </span><span class="cls_002"> </span><span class="cls_004">(removed), headlined </span><span class="cls_006">同心抗疫</span><span class="cls_004"> </span><span class="cls_006">你</span></div>
+<div style="position:absolute;left:72.00px;top:695.75px" class="cls_021"><span class="cls_021"><sup>2</sup></span><span class="cls_011"> </span><span class="cls_009">This</span><span class="cls_011"> </span><A HREF="https://archive.vn/wip/ssXUY">account</A> </span><span class="cls_011"> </span><span class="cls_009">appears to have deleted its posts soon after making them, but the tweet was preserved in</span></div>
+<div style="position:absolute;left:72.00px;top:707.75px" class="cls_009"><span class="cls_009">the Wayback machine.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">18</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:15238px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background20.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:71.50px" class="cls_006"><span class="cls_006">我出力</span><span class="cls_004"> (fighting the epidemic with one heart, everyone shall put in efforts). This was posted by a</span></div>
+<div style="position:absolute;left:72.00px;top:86.50px" class="cls_004"><span class="cls_004">YouTube channel (removed) that bore a strong resemblance to earlier Spamouflage Dragon</span></div>
+<div style="position:absolute;left:72.00px;top:101.50px" class="cls_004"><span class="cls_004">primary posters, and it featured patriotic responses in Chinese from accounts whose names and</span></div>
+<div style="position:absolute;left:72.00px;top:116.50px" class="cls_004"><span class="cls_004">profiles were Western and whose behavior was similar to earlier Spamouflage Dragon amplifiers.</span></div>
+<div style="position:absolute;left:73.50px;top:350.00px" class="cls_013"><span class="cls_013">Left, original Chinese-language comments from accounts with Western names appended to the video shared</span></div>
+<div style="position:absolute;left:147.75px;top:363.26px" class="cls_013"><span class="cls_013">by @BenedettoBrind1 and Harmony Becket. Right, automatic translations</span><span class="cls_014">.</span></div>
+<div style="position:absolute;left:72.00px;top:393.26px" class="cls_004"><span class="cls_004">Prior to its removal the YouTube channel in question had only two subscribers, and the video only</span></div>
+<div style="position:absolute;left:72.00px;top:408.26px" class="cls_004"><span class="cls_004">attracted one like, but it garnered 37 comments. The channels that commented seldom posted</span></div>
+<div style="position:absolute;left:72.00px;top:423.26px" class="cls_004"><span class="cls_004">any content other than spam, but they featured multiple playlists of videos that praised China’s</span></div>
+<div style="position:absolute;left:72.00px;top:438.26px" class="cls_004"><span class="cls_004">response to the virus and attacked its critics. Those videos, in turn, came from yet more channels</span></div>
+<div style="position:absolute;left:72.00px;top:453.26px" class="cls_004"><span class="cls_004">with Western names that posted pro-Chinese government and anti-Guo content mixed with</span></div>
+<div style="position:absolute;left:72.00px;top:468.26px" class="cls_004"><span class="cls_004">spam. All this is consistent with Spamouflage Dragon’s earlier activity.</span></div>
+<div style="position:absolute;left:72.00px;top:498.26px" class="cls_004"><span class="cls_004">Across the network, Spamouflage Dragon assets replied to, liked, and shared each other’s posts,</span></div>
+<div style="position:absolute;left:72.00px;top:513.26px" class="cls_004"><span class="cls_004">but almost invariably did not follow one another. For example, the Twitter account</span></div>
+<div style="position:absolute;left:72.00px;top:528.26px" class="cls_004"><span class="cls_004">@RNA_Chinese only followed 11 other accounts, including (ironically) @RFA_Chinese, but it</span></div>
+<div style="position:absolute;left:72.00px;top:543.26px" class="cls_004"><span class="cls_004">retweeted or @-mentioned other suspected members of the network in its tweets.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">19</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:16040px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background21.jpg" width=612 height=792></div>
+<div style="position:absolute;left:140.25px;top:437.75px" class="cls_013"><span class="cls_013">Tweets by @RNA_Chinese, tagging other suspected members of the network.</span></div>
+<div style="position:absolute;left:72.00px;top:466.01px" class="cls_004"><span class="cls_004">Similarly, on Facebook, the page </span><A HREF="https://www.facebook.com/Allandam-104941201029687/">Allandam</A> </span><span class="cls_004">, created on December 31, 2019 and allegedly based in</span></div>
+<div style="position:absolute;left:72.00px;top:481.01px" class="cls_004"><span class="cls_004">Chittagong, Bangladesh, appears to have served as a primary poster, with various amplifier</span></div>
+<div style="position:absolute;left:72.00px;top:496.01px" class="cls_004"><span class="cls_004">accounts sharing and commenting on its posts. Some of those amplifiers began hiding their</span></div>
+<div style="position:absolute;left:72.00px;top:511.01px" class="cls_004"><span class="cls_004">responses around March 28, but earlier comments remained visible. They highlighted the wide</span></div>
+<div style="position:absolute;left:72.00px;top:526.01px" class="cls_004"><span class="cls_004">range of accounts and pages that Spamouflage Dragon used, some with the minimum of</span></div>
+<div style="position:absolute;left:72.00px;top:541.01px" class="cls_004"><span class="cls_004">disguise: responders included assets with names in Chinese, Spanish, Russian, and apparent</span></div>
+<div style="position:absolute;left:72.00px;top:556.01px" class="cls_004"><span class="cls_004">gibberish based around the letters A, S, D, and F.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">20</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:16842px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background22.jpg" width=612 height=792></div>
+<div style="position:absolute;left:152.25px;top:463.01px" class="cls_013"><span class="cls_013">Some of the comments on posts by Allandam; note the range of names.</span></div>
+<div style="position:absolute;left:72.00px;top:492.26px" class="cls_004"><span class="cls_004">This behavior was typical of the earlier Spamouflage Dragon network. It appears likely to have</span></div>
+<div style="position:absolute;left:72.00px;top:507.26px" class="cls_004"><span class="cls_004">been an attempt to make the network’s activity look more organic, with a few high-value primary</span></div>
+<div style="position:absolute;left:72.00px;top:522.26px" class="cls_004"><span class="cls_004">assets and a larger number of commentators, but without a dense network of mutual follows that</span></div>
+<div style="position:absolute;left:72.00px;top:537.26px" class="cls_004"><span class="cls_004">might have made it look like a centrally controlled operation. The assets were associated with one</span></div>
+<div style="position:absolute;left:72.00px;top:552.26px" class="cls_004"><span class="cls_004">another by replies, likes, and shared content, not follower/following relationships.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">21</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:17644px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background23.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:84.75px" class="cls_003"><span class="cls_003">Content Highlights</span></div>
+<div style="position:absolute;left:72.00px;top:124.75px" class="cls_004"><span class="cls_004">As we have noted, the US decision to ban travelers from China at the end of January appears to</span></div>
+<div style="position:absolute;left:72.00px;top:139.76px" class="cls_004"><span class="cls_004">have galvanized Spamouflage Dragon out of its semi-dormant state. When it re-emerged, the</span></div>
+<div style="position:absolute;left:72.00px;top:154.76px" class="cls_004"><span class="cls_004">network’s focus was not on the pandemic itself, but on its political implications: the content it</span></div>
+<div style="position:absolute;left:72.00px;top:169.76px" class="cls_004"><span class="cls_004">amplified praised the Chinese government’s response to the outbreak, especially China’s health</span></div>
+<div style="position:absolute;left:72.00px;top:184.76px" class="cls_004"><span class="cls_004">workers. In late January and early February, the network also expressed confidence in China’s</span></div>
+<div style="position:absolute;left:72.00px;top:199.76px" class="cls_004"><span class="cls_004">ability to handle the virus.</span></div>
+<div style="position:absolute;left:74.25px;top:506.75px" class="cls_013"><span class="cls_013">Posts by Allandam and the Twitter account known as @WNXlJINOmm9xxSo on the subject of confidence at</span></div>
+<div style="position:absolute;left:223.50px;top:520.25px" class="cls_013"><span class="cls_013">the end of January and early February.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">22</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:18446px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background24.jpg" width=612 height=792></div>
+<div style="position:absolute;left:88.50px;top:328.25px" class="cls_013"><span class="cls_013">Posts by Allandam and @fossefreak in February, linking Guo, the Hong Kong protesters, and the virus.</span></div>
+<div style="position:absolute;left:72.00px;top:356.51px" class="cls_004"><span class="cls_004">By March, the tone had changed: it proclaimed China’s “victory” in the “war” against the epidemic,</span></div>
+<div style="position:absolute;left:72.00px;top:371.51px" class="cls_004"><span class="cls_004">praised China’s status as a role model for other countries, and contrasted China’s “victory” with</span></div>
+<div style="position:absolute;left:72.00px;top:386.51px" class="cls_004"><span class="cls_004">the struggles of Western countries, especially the United States. This did not come at the expense</span></div>
+<div style="position:absolute;left:72.00px;top:401.51px" class="cls_004"><span class="cls_004">of the network’s traditional attacks on Guo and the Hong Kong protesters; rather, the virus</span></div>
+<div style="position:absolute;left:72.00px;top:416.51px" class="cls_004"><span class="cls_004">became one more way to attack them. These narratives mirror those echoed by Chinese</span></div>
+<div style="position:absolute;left:72.00px;top:431.51px" class="cls_004"><span class="cls_004">state-sponsored media in English.</span></div>
+<div style="position:absolute;left:112.50px;top:644.00px" class="cls_013"><span class="cls_013">Tweets by @RNA_Chinese on the US infection rate and on China’s “amazing achievement.”</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">23</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:19248px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background25.jpg" width=612 height=792></div>
+<div style="position:absolute;left:94.50px;top:304.01px" class="cls_013"><span class="cls_013">Tweets by @fossefreak on the Hong Kong protests; note that the right-hand tweet tags @kstaceee.</span></div>
+<div style="position:absolute;left:82.50px;top:605.75px" class="cls_013"><span class="cls_013">Posts shared by Harmony Becket on China’s “unity and trust in the government,” its “strong cohesion and</span></div>
+<div style="position:absolute;left:278.25px;top:618.26px" class="cls_013"><span class="cls_013">great focus.”</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">24</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:20050px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background26.jpg" width=612 height=792></div>
+<div style="position:absolute;left:81.75px;top:354.50px" class="cls_013"><span class="cls_013">Posts by “Sheila Torres” on Western “arrogance and prejudice,” and by Allandam accusing the Hong Kong</span></div>
+<div style="position:absolute;left:169.50px;top:368.00px" class="cls_013"><span class="cls_013">protesters of using the coronavirus outbreak for their own ends.</span></div>
+<div style="position:absolute;left:83.25px;top:640.25px" class="cls_013"><span class="cls_013">Posts by Harmony Becket on February 1, attacking Guo for trying to “use the virus” and claiming Chinese</span></div>
+<div style="position:absolute;left:75.75px;top:653.75px" class="cls_013"><span class="cls_013">unity. These posts were made as Spamouflage Dragon began addressing the coronavirus pandemic, just as</span></div>
+<div style="position:absolute;left:238.50px;top:667.25px" class="cls_013"><span class="cls_013">the US travel ban was imposed.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">25</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:20852px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background27.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.75px;top:374.75px" class="cls_013"><span class="cls_013">A memorable post from Alladam on February 23, taking credit for China “effectively control[ling] the spread of</span></div>
+<div style="position:absolute;left:258.00px;top:388.25px" class="cls_013"><span class="cls_013">the epidemic globally.”</span></div>
+<div style="position:absolute;left:72.00px;top:420.75px" class="cls_003"><span class="cls_003">Conclusion</span></div>
+<div style="position:absolute;left:72.00px;top:460.76px" class="cls_004"><span class="cls_004">The most noteworthy feature of the Spamouflage Dragon network is its endurance. Some assets</span></div>
+<div style="position:absolute;left:72.00px;top:475.76px" class="cls_004"><span class="cls_004">evaded enforcement in September 2019, either because the platforms did not detect them or</span></div>
+<div style="position:absolute;left:72.00px;top:490.76px" class="cls_004"><span class="cls_004">perhaps because they found that the assets did not violate specific policies. Other assets were</span></div>
+<div style="position:absolute;left:72.00px;top:505.76px" class="cls_004"><span class="cls_004">newly created in early 2020, and still others appear to have been obtained and repurposed for</span></div>
+<div style="position:absolute;left:72.00px;top:520.76px" class="cls_004"><span class="cls_004">pro-Chinese messaging needs. This combination of tactics allowed the network to keep on</span></div>
+<div style="position:absolute;left:72.00px;top:535.76px" class="cls_004"><span class="cls_004">posting, albeit at a reduced level, throughout the winter, and left it a core of assets on which it</span></div>
+<div style="position:absolute;left:72.00px;top:550.76px" class="cls_004"><span class="cls_004">could build once it switched to coronavirus messaging in the spring.</span></div>
+<div style="position:absolute;left:72.00px;top:580.76px" class="cls_004"><span class="cls_004">In particular, the network’s dispersed nature requires further clarification. As noted, clusters of</span></div>
+<div style="position:absolute;left:72.00px;top:595.76px" class="cls_004"><span class="cls_004">accounts across different platforms share the same content, indicating that they are connected,</span></div>
+<div style="position:absolute;left:72.00px;top:610.76px" class="cls_004"><span class="cls_004">but not all the clusters have the same primary focus, suggesting a degree of autonomy. It is not</span></div>
+<div style="position:absolute;left:72.00px;top:625.76px" class="cls_004"><span class="cls_004">yet clear whether the Spamouflage Dragon network is run by one organization or is a more</span></div>
+<div style="position:absolute;left:72.00px;top:640.76px" class="cls_004"><span class="cls_004">cooperative endeavor of small groups. What is clear is that those operators are determined and</span></div>
+<div style="position:absolute;left:72.00px;top:655.76px" class="cls_004"><span class="cls_004">persistent. Further study and monitoring may shed light on how they operate and expose further</span></div>
+<div style="position:absolute;left:72.00px;top:670.76px" class="cls_004"><span class="cls_004">efforts to build their network.</span></div>
+<div style="position:absolute;left:300.00px;top:742.25px" class="cls_009"><span class="cls_009">26</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:21654px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_id_94b7d4c6-d7c2-11ea-8b25-0cc47a792c0a_files/background28.jpg" width=612 height=792></div>
+</div>
+
+</body>
+</html>
